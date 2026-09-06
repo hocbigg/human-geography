@@ -76,29 +76,29 @@ These four sections form the essential backbone of Human Geography. Complete the
 | Subject | Book | Online Course |
 | --- | --- | --- |
 | Introduction to Human Geography | *Human Geography: Places and Regions in Global Context* (Knox & Marston) / **[Introduction to Human Geography (Dorrell & Henderson)](https://open.umn.edu/opentextbooks/textbooks/870)** (open textbook) | — |
-| History & Philosophy of Geographic Thought | *Geographic Thought: A Critical Introduction* (Tim Cresswell) | — |
-| Core Spatial Concepts (space, place, scale, landscape) | *Key Concepts in Geography* (Clifford, Holloway, Rice, & Valentine, Eds.) | — |
+| History & Philosophy of Geographic Thought | *[Geographic Thought: A Critical Introduction](https://books.google.com/books?isbn=9781119602828)* (Tim Cresswell) | — |
+| Core Spatial Concepts (space, place, scale, landscape) | *[Key Concepts in Geography](https://books.google.com/books?isbn=9781446243466)* (Clifford, Holloway, Rice, & Valentine, Eds.) | — |
 | Cartography & Spatial Representation | **[How to Lie with Maps (Monmonier)](https://archive.org/details/howtoliewithmaps0000monm)** (Archive.org borrowable) | **[Esri – Cartography MOOC](https://www.esri.com/training/catalog/596e584bb826875993ba4ebf/cartography/)** (free self-paced course) |
 
 ## Geographic Research Methods & Spatial Evidence
 
 | Subject | Book | Online Course |
 | --- | --- | --- |
-| Research Design in Human Geography | *Key Methods in Geography* (Clifford, Cope, Gillespie, & French, Eds.) | — |
-| Qualitative Research Methods | *Qualitative Research Methods in Human Geography* (Hay & Cope, Eds.) | — |
-| Quantitative Methods & Spatial Data Analysis | *Statistical Methods for Geography: A Student's Guide* (Peter A. Rogerson) | — |
-| Geographic Information Systems (GIS) & Spatial Analysis | *Essentials of Geographic Information Systems* (Campbell & Shin) / *GIS Fundamentals* (Bolstad) | **[Coursera – Fundamentals of GIS (UC Davis)](https://www.coursera.org/learn/gis)** (free to audit) / **[MIT OCW – GIS Tutorial](https://ocw.mit.edu/courses/res-str-001-geographic-information-system-gis-tutorial-january-iap-2022/)** |
+| Research Design in Human Geography | *[Key Methods in Geography](https://books.google.com/books?isbn=9781529772098)* (Clifford, Cope, Gillespie, & French, Eds.) | — |
+| Qualitative Research Methods | *[Qualitative Research Methods in Human Geography](https://books.google.com/books?isbn=9780199034215)* (Hay & Cope, Eds.) | — |
+| Quantitative Methods & Spatial Data Analysis | *[Statistical Methods for Geography: A Student's Guide](https://books.google.com/books?isbn=9781529700237)* (Peter A. Rogerson) | — |
+| Geographic Information Systems (GIS) & Spatial Analysis | *[Essentials of Geographic Information Systems](https://open.umn.edu/opentextbooks/textbooks/53)* (Campbell & Shin) / *[GIS Fundamentals](https://books.google.com/books?isbn=9780971764750)* (Bolstad) | **[Coursera – Fundamentals of GIS (UC Davis)](https://www.coursera.org/learn/gis)** (free to audit) / **[MIT OCW – GIS Tutorial](https://ocw.mit.edu/courses/res-str-001-geographic-information-system-gis-tutorial-january-iap-2022/)** |
 
 ## Core Human Geography Domains
 
 | Subject | Book | Online Course |
 | --- | --- | --- |
-| Population Geography | *Population Geography: Tools and Issues* (K. Bruce Newbold) | — |
-| Cultural Geography | *Cultural Geography: A Critical Introduction* (Don Mitchell) / *Cultural Geography* (Mike Crang) | — |
-| Economic Geography | *Economic Geography: A Contemporary Introduction* (Coe, Kelly, & Yeung) | — |
-| Political Geography | *Political Geography: World-Economy, Nation-State and Vulnerability* (Flint & Taylor) | — |
-| Urban Geography | *Urban Geography: A Critical Introduction* (Jonas, McCann, & Thomas) | — |
-| Human–Environment Relations | *Environment and Society: A Critical Introduction* (Robbins, Hintz, & Moore) | **[Coursera – Global Environmental Management (DTU)](https://www.coursera.org/learn/global-environmental-management)** (free to audit) |
+| Population Geography | *[Population Geography: Tools and Issues](https://books.google.com/books?isbn=9781442220997)* (K. Bruce Newbold) | — |
+| Cultural Geography | *[Cultural Geography: A Critical Introduction](https://books.google.com/books?isbn=9781557868923)* (Don Mitchell) / *[Cultural Geography](https://books.google.com/books?isbn=9780415140836)* (Mike Crang) | — |
+| Economic Geography | *[Economic Geography: A Contemporary Introduction](https://books.google.com/books?isbn=9781119389552)* (Coe, Kelly, & Yeung) | — |
+| Political Geography | *[Political Geography: World-Economy, Nation-State and Vulnerability](https://books.google.com/books?isbn=9781138058262)* (Flint & Taylor) | — |
+| Urban Geography | *[Urban Geography: A Critical Introduction](https://books.google.com/books?isbn=9781405189798)* (Jonas, McCann, & Thomas) | — |
+| Human–Environment Relations | *[Environment and Society: A Critical Introduction](https://books.google.com/books?isbn=9781119408239)* (Robbins, Hintz, & Moore) | **[Coursera – Global Environmental Management (DTU)](https://www.coursera.org/learn/global-environmental-management)** (free to audit) |
 
 ## Regional & Systems Geography
 
@@ -106,7 +106,7 @@ These four sections form the essential backbone of Human Geography. Complete the
 | --- | --- | --- |
 | World Regional Geography | **[World Regional Geography: People, Places and Globalization (Berglee)](https://open.umn.edu/opentextbooks/textbooks/world-regional-geography-people-places-and-globalization)** (open textbook) | — |
 | Transportation & Mobility Geography | **[The Geography of Transport Systems (Rodrigue)](https://transportgeography.org/)** (open textbook) | — |
-| Agricultural & Rural Geography | *Rural Geography: Processes, Responses and Experiences in Rural Restructuring* (Michael Woods) | — |
+| Agricultural & Rural Geography | *[Rural Geography: Processes, Responses and Experiences in Rural Restructuring](https://books.google.com/books?isbn=9780761947615)* (Michael Woods) | — |
 
 # Code of conduct
 
