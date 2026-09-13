@@ -3,36 +3,11 @@ title: Hocbigg - Human Geography
 description: Path to a free self-taught education in Human Geography!
 ---
 
-# Contents
-
-- [Summary](#summary)
-- [Communities](#communities)
-- [Curriculum](#curriculum)
-- [Code of conduct](#code-of-conduct)
-
-# Summary
+## Introduction
 
 The Human Geography curriculum is a **complete education in Human Geography** using online materials.
 
-## Organization
-
-This repository is organized into 2 main components:
-
-- **Core Curriculum** (this page): the foundational knowledge of the field;
-- **[Advanced Topics](advanced_topics.md)**: focused study in specific areas;
-
-**Process:** Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.
-
-- For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.
-- The Core Curriculum provides a shared foundation and is intended to be completed in full.
-- Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.
-
-Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md).
-
-**[How to contribute](/CONTRIBUTING.html)**
-
-# Communities
+## Communities
 
 - Forums: [The GradCafe Geography Forum](https://forum.thegradcafe.com/forum/37-geography-forum/)
 - Subreddits:
@@ -42,72 +17,95 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
     - [Mr. Sinn Channel (AP Human Geography focused)](https://discord.gg/mrsinn)
     - [The Geography Discord](https://discord.gg/geography)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/human-geography/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
-- Join our Discord server (for discussions around this and other curricula): 
-    
-    [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
 
-# Curriculum
+## Curriculum
 
-- [Foundations of Human Geography](#foundations-of-human-geography)
-- [Geographic Research Methods & Spatial Evidence](#geographic-research-methods--spatial-evidence)
-- [Core Human Geography Domains](#core-human-geography-domains)
-- [Regional & Systems Geography](#regional--systems-geography)
+### Introduction to Human Geography
 
-## How to use this curriculum
+This subject introduces the spatial perspective, exploring how human societies organize space, interact across places, and understand the interconnected modern world.
 
-### Core Sections
+[Introduction to Human Geography (David Dorrell & Joseph Henderson, Eds.)](https://open.umn.edu/opentextbooks/textbooks/870) - A comprehensive, openly accessible peer-reviewed textbook that introduces spatial terminology, population dynamics, cultural patterns, and economic systems.
 
-These four sections form the essential backbone of Human Geography. Complete them in this order before moving on to anything else:
+[Human Geography: Places and Regions in Global Context (Paul L. Knox & Sallie A. Marston)](https://books.google.com/books?isbn=9780321984241) - A commercial alternative to Dorrell & Henderson that places greater emphasis on globalization and visual case studies.
 
-1. **Foundations of Human Geography**
-   Start here. This section introduces the basic ways geographers think about the world.
+[Crash Course Geography (CrashCourse / Alizé Carrère)](https://thecrashcourse.com/topic/geography/) - A complementary high-production video series covering the fundamental principles of physical and human geography; best watched alongside the introductory readings.
 
-2. **Geographic Research Methods & Spatial Evidence**
-   Next, learn how geographers ask questions and gather evidence. This is the toolkit you will use throughout the rest of the curriculum.
+### Core Spatial Concepts
 
-3. **Core Human Geography Domains**
-   This is the heart of the discipline. Study these major subfields in any order you prefer, but finish all of them before proceeding to specialization tracks.
+This subject unpacks the foundational conceptual toolkit of the discipline, examining how geographers define, debate, and apply concepts like space, place, scale, landscape, and territory.
 
-4. **Regional & Systems Geography**
-   Finish the core by learning how geographers understand the world as interconnected regions and systems.
+[Key Concepts in Geography (Nicholas Clifford, Sarah L. Holloway, Stephen P. Rice, & Gill Valentine, Eds.)](https://books.google.com/books?isbn=9781446243466) - An authoritative collection of essays by leading geographers dissecting the core terminology and philosophical debates underpinning geographical inquiry.
 
-## Foundations of Human Geography
+[Place: An Introduction (Tim Cresswell)](https://books.google.com/books?isbn=9780470655634) - A focused monograph that serves as an accessible conceptual companion to Clifford et al., tracing how "place" has been theorized across humanistic, cultural, and critical geography.
 
-| Subject | Book | Online Course |
-| --- | --- | --- |
-| Introduction to Human Geography | *Human Geography: Places and Regions in Global Context* (Knox & Marston) / **[Introduction to Human Geography (Dorrell & Henderson)](https://open.umn.edu/opentextbooks/textbooks/870)** (open textbook) | — |
-| History & Philosophy of Geographic Thought | *[Geographic Thought: A Critical Introduction](https://books.google.com/books?isbn=9781119602828)* (Tim Cresswell) | — |
-| Core Spatial Concepts (space, place, scale, landscape) | *[Key Concepts in Geography](https://books.google.com/books?isbn=9781446243466)* (Clifford, Holloway, Rice, & Valentine, Eds.) | — |
-| Cartography & Spatial Representation | **[How to Lie with Maps (Monmonier)](https://archive.org/details/howtoliewithmaps0000monm)** (Archive.org borrowable) | **[Esri – Cartography MOOC](https://www.esri.com/training/catalog/596e584bb826875993ba4ebf/cartography/)** (free self-paced course) |
+### Geographic Thought and Theory
 
-## Geographic Research Methods & Spatial Evidence
+This subject explores the intellectual history of geography, tracing how the discipline evolved from environmental determinism and regional description to spatial science, Marxist political economy, feminism, and postcolonial theory.
 
-| Subject | Book | Online Course |
-| --- | --- | --- |
-| Research Design in Human Geography | *[Key Methods in Geography](https://books.google.com/books?isbn=9781529772098)* (Clifford, Cope, Gillespie, & French, Eds.) | — |
-| Qualitative Research Methods | *[Qualitative Research Methods in Human Geography](https://books.google.com/books?isbn=9780199034215)* (Hay & Cope, Eds.) | — |
-| Quantitative Methods & Spatial Data Analysis | *[Statistical Methods for Geography: A Student's Guide](https://books.google.com/books?isbn=9781529700237)* (Peter A. Rogerson) | — |
-| Geographic Information Systems (GIS) & Spatial Analysis | *[Essentials of Geographic Information Systems](https://open.umn.edu/opentextbooks/textbooks/53)* (Campbell & Shin) / *[GIS Fundamentals](https://books.google.com/books?isbn=9780971764750)* (Bolstad) | **[Coursera – Fundamentals of GIS (UC Davis)](https://www.coursera.org/learn/gis)** (free to audit) / **[MIT OCW – GIS Tutorial](https://ocw.mit.edu/courses/res-str-001-geographic-information-system-gis-tutorial-january-iap-2022/)** |
+[Geographic Thought: A Critical Introduction (Tim Cresswell)](https://books.google.com/books?isbn=9781119602828) - The definitive, highly readable narrative textbook exploring the major intellectual movements and philosophical paradigms that have shaped modern geography.
 
-## Core Human Geography Domains
+### Cartography and Map Literacy
 
-| Subject | Book | Online Course |
-| --- | --- | --- |
-| Population Geography | *[Population Geography: Tools and Issues](https://books.google.com/books?isbn=9781442220997)* (K. Bruce Newbold) | — |
-| Cultural Geography | *[Cultural Geography: A Critical Introduction](https://books.google.com/books?isbn=9781557868923)* (Don Mitchell) / *[Cultural Geography](https://books.google.com/books?isbn=9780415140836)* (Mike Crang) | — |
-| Economic Geography | *[Economic Geography: A Contemporary Introduction](https://books.google.com/books?isbn=9781119389552)* (Coe, Kelly, & Yeung) | — |
-| Political Geography | *[Political Geography: World-Economy, Nation-State and Vulnerability](https://books.google.com/books?isbn=9781138058262)* (Flint & Taylor) | — |
-| Urban Geography | *[Urban Geography: A Critical Introduction](https://books.google.com/books?isbn=9781405189798)* (Jonas, McCann, & Thomas) | — |
-| Human–Environment Relations | *[Environment and Society: A Critical Introduction](https://books.google.com/books?isbn=9781119408239)* (Robbins, Hintz, & Moore) | **[Coursera – Global Environmental Management (DTU)](https://www.coursera.org/learn/global-environmental-management)** (free to audit) |
+This subject examines the art, science, and ethics of mapmaking, covering coordinate systems, projections, symbolization, and the ways maps inevitably distort or persuade.
 
-## Regional & Systems Geography
+[How to Lie with Maps (Mark Monmonier)](https://archive.org/details/howtoliewithmaps00monm) - A canonical, accessible study of cartographic abstraction, scale, and projection, illustrating how all maps must distort reality to communicate and how those distortions are manipulated.
 
-| Subject | Book | Online Course |
-| --- | --- | --- |
-| World Regional Geography | **[World Regional Geography: People, Places and Globalization (Berglee)](https://open.umn.edu/opentextbooks/textbooks/world-regional-geography-people-places-and-globalization)** (open textbook) | — |
-| Transportation & Mobility Geography | **[The Geography of Transport Systems (Rodrigue)](https://transportgeography.org/)** (open textbook) | — |
-| Agricultural & Rural Geography | *[Rural Geography: Processes, Responses and Experiences in Rural Restructuring](https://books.google.com/books?isbn=9780761947615)* (Michael Woods) | — |
+[Cartography (Esri)](https://www.esri.com/training/catalog/596e584bb826875993ba4ebf/cartography/) - A practical, free online course that builds directly on Monmonier’s principles by teaching modern digital map styling, typography, and visual hierarchy using ArcGIS Pro.
 
-# Code of conduct
+### Geographic Information Systems (GIS)
 
-[Hocbigg's code of conduct](https://github.com/hocbigg/code-of-conduct).
+This subject covers the fundamental principles of digital geospatial data, including vector and raster data models, coordinate reference systems, spatial databases, and introductory map analysis.
+
+[Essentials of Geographic Information Systems (Jonathan Campbell & Michael Shin)](https://open.umn.edu/opentextbooks/textbooks/essentials-of-geographic-information-systems) - A clear, conceptually grounded open textbook covering spatial data models, coordinate transformations, and spatial analysis techniques without locking the reader into proprietary workflows.
+
+[The Nature of Geographic Information (David DiBiase / Penn State OER)](https://www.e-education.psu.edu/natureofgeoinfo/) - An open courseware text that serves as a thorough conceptual alternative to Campbell & Shin, detailing the geodetic and computational foundations of GIS.
+
+[Fundamentals of GIS (University of California, Davis / Coursera)](https://www.coursera.org/learn/gis) - A structured, audit-free video course that pairs with the theoretical texts by providing hands-on software demonstrations, data management exercises, and map output workflows.
+
+[Geographic Information System (GIS) Tutorial (MIT OpenCourseWare)](https://ocw.mit.edu/courses/res-str-001-geographic-information-system-gis-tutorial-january-iap-2022/) - A self-paced set of tutorial exercises that serves as a fast-track, software-agnostic alternative for practicing basic geoprocessing in either QGIS or ArcGIS Pro.
+
+### Population and Migration Geography
+
+This subject analyzes the spatial distribution of human populations, demographic transitions, fertility and mortality patterns, and the socio-spatial drivers of internal and international migration.
+
+[Population Geography: Tools and Issues (K. Bruce Newbold)](https://books.google.com/books?isbn=9781538140772) - An issue-driven foundational textbook that introduces demographic measures and spatial models alongside real-world migration, refugee movements, and public health dilemmas.
+
+### Cultural Geography
+
+This subject examines how culture is spatially constituted and contested, focusing on language, religion, identity, cultural diffusion, and the production of cultural landscapes.
+
+[Cultural Geography: A Critical Introduction (Don Mitchell)](https://books.google.com/books?isbn=9781557868923) - A classic, politically rigorous textbook analyzing culture as an arena of social power, labor struggles, and ideological conflict materialized in the built environment.
+
+[Cultural Geography (Mike Crang)](https://books.google.com/books?isbn=9780415140836) - An alternative introductory text to Mitchell, offering a more post-structural and literary approach centered on cultural perception, everyday spaces, and symbolic representation.
+
+### Economic Geography
+
+This subject investigates the spatial organization of economic activity, including uneven geographical development, industrial location, global production networks, and regional economic restructuring.
+
+[Economic Geography: A Contemporary Introduction (Neil M. Coe, Philip F. Kelly, & Henry W. C. Yeung)](https://books.google.com/books?isbn=9781119389552) - The benchmark undergraduate introduction to economic geography, organizing the global economy around commodity chains, labor regimes, state governance, and local place-based dynamics.
+
+### Political Geography
+
+This subject explores the relationships between space, territory, and political power, analyzing the modern state system, sovereignty, border politics, nationalism, and global geopolitics.
+
+[Political Geography: World-Economy, Nation-State, and Locality (Colin Flint & Peter J. Taylor)](https://books.google.com/books?isbn=9781032795874) - The definitive textbook applying a world-systems framework to political geography, explaining how global geopolitical orders interact with state structures and local electoral politics.
+
+### Urban Geography
+
+This subject examines the processes and spatial forms of urbanization, including central place systems, internal urban models, spatial segregation, gentrification, and global urban networks.
+
+[Urban Geography: A Critical Introduction (Andrew E. G. Jonas, Eugene McCann, & Mary Thomas)](https://books.google.com/books?isbn=9781405189798) - A comprehensive critical text that blends traditional spatial models of the city with contemporary debates on neoliberal urbanism, suburban sprawl, and the right to the city.
+
+### Human–Environment Geography
+
+This subject explores the recursive relationships between society and the non-human world, focusing on political ecology, resource management, environmental hazards, and sustainability debates.
+
+[Environment and Society: A Critical Introduction (Paul Robbins, John G. Hintz, & Sarah A. Moore)](https://books.google.com/books?isbn=9781119408239) - A foundational textbook that equips learners with conceptual frameworks (including political economy, environmental ethics, and social construction of nature) and applies them to everyday ecological commodities.
+
+[GEOG 30N: Environment and Society in a Changing World (Penn State OER)](https://www.e-education.psu.edu/geog30/) - A freely accessible, open courseware curriculum that complements Robbins et al. by exploring coupled human-environment systems, vulnerability, and environmental governance through structured modules.
+
+### World Regional Geography
+
+This culminating core subject applies the thematic subfields of human geography across the Earth's distinct macro-realms, synthesizing environmental, cultural, political, and economic patterns.
+
+[World Regional Geography: People, Places and Globalization (Royal Berglee)](https://open.umn.edu/opentextbooks/textbooks/world-regional-geography-people-places-and-globalization) - A comprehensive open-access textbook structured region by region, demonstrating how global forces and local geographies intersect across the world's major continental realms.
