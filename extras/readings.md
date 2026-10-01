@@ -2,11 +2,11 @@
 
 This curated bibliography brings together field-defining books, landmark essays, and transformative monographs in Human Geography. These works represent the major epistemological turns of the discipline—from cultural landscape analysis and spatial phenomenology to historical-geographical materialism, feminist spatial theory, critical cartography, and political ecology.
 
-- [Foundational Classics & Spatial Theory](#foundational-classics--spatial-theory)
-- [Radical, Marxist & Critical Urban Geographies](#radical-marxist--critical-urban-geographies)
-- [Feminist, Queer & Postcolonial Spatialities](#feminist-queer--postcolonial-spatialities)
-- [Cultural Landscapes, Power & Representation](#cultural-landscapes-power--representation)
-- [Political Ecology & Environmental Imaginaries](#political-ecology--environmental-imaginaries)
+- [Foundational Classics & Spatial Theory](#foundational-classics-spatial-theory)
+- [Radical, Marxist & Critical Urban Geographies](#radical-marxist-critical-urban-geographies)
+- [Feminist, Queer & Postcolonial Spatialities](#feminist-queer-postcolonial-spatialities)
+- [Cultural Landscapes, Power & Representation](#cultural-landscapes-power-representation)
+- [Political Ecology & Environmental Imaginaries](#political-ecology-environmental-imaginaries)
 
 ## Foundational Classics & Spatial Theory
 

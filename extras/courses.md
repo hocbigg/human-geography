@@ -2,10 +2,10 @@
 
 This curated collection gathers exceptional university-level open courseware, comprehensive MOOCs, and recorded academic lecture series in Human Geography. These offerings build deep conceptual models in spatial theory, critical urbanism, political economy, environmental governance, and geospatial science.
 
-- [Urbanization, Spatial Planning & Cities](#urbanization-spatial-planning--cities)
-- [Global Development, Geopolitics & Political Economy](#global-development-geopolitics--political-economy)
-- [Environmental Governance, Political Ecology & Climate Justice](#environmental-governance-political-ecology--climate-justice)
-- [Geospatial Analysis, Critical Cartography & GIS](#geospatial-analysis-critical-cartography--gis)
+- [Urbanization, Spatial Planning & Cities](#urbanization-spatial-planning-cities)
+- [Global Development, Geopolitics & Political Economy](#global-development-geopolitics-political-economy)
+- [Environmental Governance, Political Ecology & Climate Justice](#environmental-governance-political-ecology-climate-justice)
+- [Geospatial Analysis, Critical Cartography & GIS](#geospatial-analysis-critical-cartography-gis)
 
 ## Urbanization, Spatial Planning & Cities
 
