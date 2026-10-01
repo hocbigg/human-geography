@@ -5,9 +5,25 @@ description: Path to a free self-taught education in Human Geography!
 
 ## Introduction
 
-The Human Geography curriculum is a **complete education in Human Geography** using online materials.
+Human geography investigates how human societies create, organize, and contest space and place, as well as how social processes shape and are shaped by the physical environment. While physical geography examines natural systems like landforms, climate, and hydrology, human geography focuses on the spatial organization of culture, political power, economic networks, settlements, and nature–society relations. Studying human geography equips you to look past surface-level events and analyze the underlying spatial structures — from global supply chains and geopolitical borders to neighborhood segregation and environmental injustice — that govern daily life across the globe.
 
-## Communities
+This curriculum is designed for self-directed, independent learners approaching human geography from the ground up. It assumes no previous academic background in geography, spatial science, or social theory. The material emphasizes conceptual clarity, critical spatial reasoning, and practical spatial literacy over formal academic research protocols, making it suitable for career-changers, polymaths, and curious generalists seeking to understand how the modern world is organized.
+
+### How to Navigate the Curriculum
+
+The curriculum is structured into twelve core subjects that logically build from foundational theory to applied thematic analysis:
+
+- **Start with the foundations and spatial tools:** Begin with *Introduction to Human Geography*, *Core Spatial Concepts*, and *Geographic Thought and Theory*. These subjects establish the essential conceptual vocabulary — such as space, place, scale, landscape, and territoriality — and trace the discipline's intellectual evolution. Follow these immediately with *Cartography and Map Literacy* and *Geographic Information Systems (GIS)* to develop critical map-reading skills and a working understanding of digital spatial data.
+- **Explore the thematic domains:** Once you have a firm grasp of spatial concepts and tools, work through the primary subfields: *Population and Migration Geography*, *Cultural Geography*, *Economic Geography*, *Political Geography*, *Urban Geography*, and *Human–Environment Geography*. These represent the major thematic pillars of the discipline. While presented in a logical sequence, they can be explored in whatever order best matches your interests.
+- **Synthesize at the global scale:** Conclude with *World Regional Geography*, which draws together the cultural, political, economic, and environmental frameworks from earlier subjects to examine how these forces play out across the Earth's distinct continental realms.
+
+### Next Steps
+
+This document covers only the universal, undergraduate-level core that every student of human geography needs before specializing. It avoids narrow elective subfields and advanced quantitative modeling to maintain a focused, achievable learning path.
+
+Once you have completed this foundational core, you can pursue specialized tracks in [Advanced Topics](advanced_topics.md) (such as critical geopolitics, political ecology, or geographic data science), engage directly with field-defining historical texts in [Readings](extras/readings.md), or supplement your study with recorded university lectures in [Courses](extras/courses.md).
+
+### Communities
 
 - Forums: [The GradCafe Geography Forum](https://forum.thegradcafe.com/forum/37-geography-forum/)
 - Subreddits:
