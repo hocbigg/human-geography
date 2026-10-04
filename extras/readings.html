@@ -1,92 +1,490 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Great Readings</title>
-<link rel="stylesheet" href="/human-geography/style.css">
-<meta name="description" content="">
+  <title>Great Readings in Human Geography</title>
+  <meta name="description" content="Great Readings in Human Geography curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/human-geography/">
+  <link rel="canonical" href="https://hocbigg.github.io/human-geography/extras/readings.html">
+  <meta property="og:title" content="Great Readings in Human Geography">
+  <meta property="og:description" content="Great Readings in Human Geography curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/human-geography/extras/readings.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Great Readings">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/human-geography/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/human-geography/">Human-Geography</a>
-<a href="/human-geography/advanced_topics.html">Advanced Topics</a>
-<a href="/human-geography/extras/courses.html">Extra Courses</a>
-<a href="/human-geography/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/human-geography/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/human-geography/">Human Geography</a></li>
+      <li><a href="/human-geography/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/human-geography/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/human-geography/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/human-geography" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="great-readings">Great Readings</h1>
-<p>This document consists of great books or articles on Human Geography.
-Some are here because there is a course covering the same material;
-some are just great books that you should read at some point in your career.</p>
-<p>Once you have made it through most of the curriculum, knowing whether a book is worth your time will become easier.
-Or, if you are struggling in one of the courses, perhaps reading a book on the subject will help.</p>
-<h2 id="core-human-geography">Core Human Geography</h2>
-<table>
+  <main id="main-content">
+    <article>
+
+<h1 id="great-readings-in-human-geography">Great Readings in Human Geography</h1>
+<p>This curated bibliography brings together field-defining books, landmark essays, and transformative monographs in Human Geography. These works represent the major epistemological turns of the discipline—from cultural landscape analysis and spatial phenomenology to historical-geographical materialism, feminist spatial theory, critical cartography, and political ecology.</p>
+<ul>
+<li><a href="#foundational-classics-spatial-theory">Foundational Classics &amp; Spatial Theory</a></li>
+<li><a href="#radical-marxist-critical-urban-geographies">Radical, Marxist &amp; Critical Urban Geographies</a></li>
+<li><a href="#feminist-queer-postcolonial-spatialities">Feminist, Queer &amp; Postcolonial Spatialities</a></li>
+<li><a href="#cultural-landscapes-power-representation">Cultural Landscapes, Power &amp; Representation</a></li>
+<li><a href="#political-ecology-environmental-imaginaries">Political Ecology &amp; Environmental Imaginaries</a></li>
+</ul>
+<h2 id="foundational-classics-spatial-theory">Foundational Classics &amp; Spatial Theory</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th>Title</th>
+<th>Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Cultural-Landscape-Introduction-Human-Geography/dp/0135116155">The Cultural Landscape: An Introduction to Human Geography</a></td>
-<td style="text-align: center;">James M. Rubenstein</td>
+<td><a href="https://archive.org/details/universityofc02univ" target="_blank" rel="noopener noreferrer"><em>The Morphology of Landscape</em></a> (1925)</td>
+<td>Carl O. Sauer</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Prisoners-Geography-Explain-Everything-Politics/dp/1501121472">Prisoners of Geography: Ten Maps That Explain Everything About the World</a></td>
-<td style="text-align: center;">Tim Marshall</td>
+<td><em>What About People in Regional Science?</em> (Papers of the Regional Science Association, 1970; unlinked)</td>
+<td>Torsten Hägerstrand</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Guns-Germs-Steel-Fates-Societies/dp/0393317552">Guns, Germs, and Steel: The Fates of Human Societies</a></td>
-<td style="text-align: center;">Jared Diamond</td>
+<td><a href="https://archive.org/details/spaceplaceperspe0000tuan" target="_blank" rel="noopener noreferrer"><em>Space and Place: The Perspective of Experience</em></a> (1977)</td>
+<td>Yi-Fu Tuan</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/productionofspac00lefe_0" target="_blank" rel="noopener noreferrer"><em>The Production of Space</em></a> (1974 / trans. 1991)</td>
+<td>Henri Lefebvre</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780631162940" target="_blank" rel="noopener noreferrer"><em>The Condition of Postmodernity: An Enquiry into the Origins of Cultural Change</em></a> (1989)</td>
+<td>David Harvey</td>
+</tr>
+<tr>
+<td><a href="https://banmarchive.org.uk/marxism-today/june-1991/a-global-sense-of-place/" target="_blank" rel="noopener noreferrer"><em>A Global Sense of Place</em></a> (1991)</td>
+<td>Doreen Massey</td>
 </tr>
 </tbody>
-</table>
-<h2 id="advanced-and-specialized">Advanced and Specialized</h2>
-<table>
+</table></div>
+<h2 id="radical-marxist-critical-urban-geographies">Radical, Marxist &amp; Critical Urban Geographies</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th>Title</th>
+<th>Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.opengeography.org/human-geography.html">Human Geography (Open Textbook)</a></td>
-<td style="text-align: center;">Christine Rosenfeld and Nathan Burtch (free online)</td>
+<td><a href="https://books.google.com/books?isbn=9780820336046" target="_blank" rel="noopener noreferrer"><em>Social Justice and the City</em></a> (1973)</td>
+<td>David Harvey</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/world-regional-geography-people-places-and-globalization">World Regional Geography: People, Places and Globalization</a></td>
-<td style="text-align: center;">University of Minnesota (free open textbook)</td>
+<td><a href="https://books.google.com/books?isbn=9780820335933" target="_blank" rel="noopener noreferrer"><em>Uneven Development: Nature, Capital, and the Production of Space</em></a> (1984)</td>
+<td>Neil Smith</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Dictionary-Human-Geography-Derek-Gregory/dp/1405132884">The Dictionary of Human Geography</a></td>
-<td style="text-align: center;">Derek Gregory et al.</td>
+<td><a href="https://books.google.com/books?isbn=9780860919360" target="_blank" rel="noopener noreferrer"><em>Postmodern Geographies: The Reassertion of Space in Critical Social Theory</em></a> (1989)</td>
+<td>Edward W. Soja</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780520242012" target="_blank" rel="noopener noreferrer"><em>Golden Gulag: Prisons, Surplus, Crisis, and Opposition in Globalizing California</em></a> (2007)</td>
+<td>Ruth Wilson Gilmore</td>
+</tr>
+<tr>
+<td><a href="https://newleftreview.org/issues/ii53/articles/david-harvey-the-right-to-the-city" target="_blank" rel="noopener noreferrer"><em>The Right to the City</em></a> (New Left Review, 2008)</td>
+<td>David Harvey</td>
 </tr>
 </tbody>
-</table>
-</article>
-</main>
+</table></div>
+<h2 id="feminist-queer-postcolonial-spatialities">Feminist, Queer &amp; Postcolonial Spatialities</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>Choosing the Margin as a Space of Radical Openness</em> (Framework: The Journal of Cinema and Media, 1989; unlinked)</td>
+<td>bell hooks</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780745608181" target="_blank" rel="noopener noreferrer"><em>Feminism and Geography: The Limits of Geographical Knowledge</em></a> (1993)</td>
+<td>Gillian Rose</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780816698462" target="_blank" rel="noopener noreferrer"><em>The End of Capitalism (As We Knew It): A Feminist Critique of Political Economy</em></a> (1996)</td>
+<td>J.K. Gibson-Graham</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9781577180906" target="_blank" rel="noopener noreferrer"><em>The Colonial Present: Afghanistan, Palestine, Iraq</em></a> (2004)</td>
+<td>Derek Gregory</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780816647026" target="_blank" rel="noopener noreferrer"><em>Demonic Grounds: Black Women and the Cartographies of Struggle</em></a> (2006)</td>
+<td>Katherine McKittrick</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="cultural-landscapes-power-representation">Cultural Landscapes, Power &amp; Representation</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://archive.org/details/socialformations0000cosg" target="_blank" rel="noopener noreferrer"><em>Social Formation and Symbolic Landscape</em></a> (1984)</td>
+<td>Denis Cosgrove</td>
+</tr>
+<tr>
+<td><a href="https://quod.lib.umich.edu/p/passages/4761530.0003.008/--deconstructing-the-map?rgn=main;view=fulltext" target="_blank" rel="noopener noreferrer"><em>Deconstructing the Map</em></a> (Cartographica, 1989)</td>
+<td>J.B. Harley</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780226532059" target="_blank" rel="noopener noreferrer"><em>Landscape and Power</em></a> (1994 / 2nd ed. 2002)</td>
+<td>W.J.T. Mitchell (Ed.)</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780816626939" target="_blank" rel="noopener noreferrer"><em>The Lie of the Land: Migrant Workers and the California Landscape</em></a> (1996)</td>
+<td>Don Mitchell</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780816624584" target="_blank" rel="noopener noreferrer"><em>In Place/Out of Place: Geography, Ideology, and Transgression</em></a> (1996)</td>
+<td>Tim Cresswell</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="political-ecology-environmental-imaginaries">Political Ecology &amp; Environmental Imaginaries</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780820344454" target="_blank" rel="noopener noreferrer"><em>Silent Violence: Food, Famine, and Peasantry in Northern Nigeria</em></a> (1983 / 2013)</td>
+<td>Michael J. Watts</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780416401509" target="_blank" rel="noopener noreferrer"><em>Land Degradation and Society</em></a> (1987)</td>
+<td>Piers Blaikie &amp; Harold Brookfield</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780226322728" target="_blank" rel="noopener noreferrer"><em>The Fate of the Forest: Developers, Destroyers, and Defenders of the Amazon</em></a> (1989)</td>
+<td>Susanna Hecht &amp; Alexander Cockburn</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780262572163" target="_blank" rel="noopener noreferrer"><em>Concrete and Clay: Reworking Nature in New York City</em></a> (2002)</td>
+<td>Matthew Gandy</td>
+</tr>
+<tr>
+<td><a href="https://manifold.umn.edu/projects/a-billion-black-anthropocenes-or-none" target="_blank" rel="noopener noreferrer"><em>A Billion Black Anthropocenes or None</em></a> (2018)</td>
+<td>Kathryn Yusoff</td>
+</tr>
+</tbody>
+</table></div>
+    </article>
+  </main>
 
 </body>
 </html>

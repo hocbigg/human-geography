@@ -1,142 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Advanced Topics</title>
-<link rel="stylesheet" href="/human-geography/style.css">
-<meta name="description" content="">
+  <title>Human Geography: Advanced Specializations</title>
+  <meta name="description" content="Human Geography: Advanced Specializations curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/human-geography/">
+  <link rel="canonical" href="https://hocbigg.github.io/human-geography/advanced_topics.html">
+  <meta property="og:title" content="Human Geography: Advanced Specializations">
+  <meta property="og:description" content="Human Geography: Advanced Specializations curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/human-geography/advanced_topics.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Advanced Topics">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/human-geography/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/human-geography/">Human-Geography</a>
-<a href="/human-geography/advanced_topics.html">Advanced Topics</a>
-<a href="/human-geography/extras/courses.html">Extra Courses</a>
-<a href="/human-geography/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/human-geography/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/human-geography/">Human Geography</a></li>
+      <li><a href="/human-geography/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/human-geography/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/human-geography/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/human-geography" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="advanced-topics">Advanced Topics</h1>
+  <main id="main-content">
+    <article>
+
+<h1 id="human-geography-advanced-specializations">Human Geography: Advanced Specializations</h1>
+<p>These advanced specialization tracks build directly on the core undergraduate curriculum in human geography. Each track represents a major subfield or methodological frontier. Self-directed learners should select one or two tracks aligned with their specific intellectual or professional goals rather than attempting to complete all tracks.</p>
 <ul>
-<li><a href="#development-globalization--planning">Development, Globalization &amp; Planning</a></li>
-<li><a href="#social-difference-health--mobility">Social Difference, Health &amp; Mobility</a></li>
-<li><a href="#power-environment--global-challenges">Power, Environment &amp; Global Challenges</a></li>
+<li><strong>Critical Geopolitics, Borders &amp; Decolonial Spatialities:</strong> Interrogates statecraft, territoriality, border militarization, carceral spaces, and Indigenous counter-cartographies.</li>
+<li><strong>Political Ecology, Environmental Justice &amp; Climate Futures:</strong> Investigates the power dynamics governing resource access, environmental racism, urban metabolism, and climate adaptation.</li>
+<li><strong>Global Production, Uneven Development &amp; Critical Urbanism:</strong> Analyzes the spatial logic of multi-scalar commodity chains, diverse community economies, planetary urbanization, and global logistics.</li>
+<li><strong>Social Geographies of Difference, Embodiment &amp; Mobilities:</strong> Explores how spatial structures co-constitute gender, sexuality, health disparities, and transnational mobilities.</li>
+<li><strong>Geographic Data Science, Critical GIS &amp; Spatial Humanities:</strong> Integrates computational spatial data science and deep mapping with critical analysis of cartographic power and digital surveillance.</li>
 </ul>
-<p>The remaining sections (V, VI, and VII) are <strong>optional specialization tracks</strong>. They build directly on the core and allow you to explore particular interests or future directions.</p>
-<ul>
-<li>
-<p><strong>Development, Globalization &amp; Planning</strong><br />
-  Focuses on economic change, inequality between places, and how societies shape cities and regions.</p>
-</li>
-<li>
-<p><strong>Social Difference, Health &amp; Mobility</strong><br />
-  Centers on people’s lived experiences, identity, well-being, and movement through space.</p>
-</li>
-<li>
-<p><strong>Power, Environment &amp; Global Challenges</strong><br />
-  Examines power relations, environmental crises, and the big global issues of our time.</p>
-</li>
-</ul>
-<h2 id="development-globalization-planning">Development, Globalization &amp; Planning</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book</th>
-<th>Online Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Development Geography</td>
-<td><em>Geographies of Development (Potter et al.)</em></td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.open.edu/openlearn/society-politics-law/making-social-worlds/content-section-0">Open University – Making Social Worlds</a></strong> (related open module)</td>
-</tr>
-<tr>
-<td>Global Economic Networks</td>
-<td><em>Global Shift (Dicken)</em></td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.classcentral.com/course/edx-introduction-to-ap-human-geography-8247">UC Berkeley – Economic Geography lectures</a></strong> (related lectures)</td>
-</tr>
-<tr>
-<td>Urban &amp; Regional Planning</td>
-<td><em>Urban Land Use Planning (Berke &amp; Godschalk)</em></td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-<h2 id="social-difference-health-mobility">Social Difference, Health &amp; Mobility</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book</th>
-<th>Online Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Social Geography</td>
-<td><em>Social Geographies (Valentine)</em></td>
-<td>—</td>
-</tr>
-<tr>
-<td>Health Geography</td>
-<td><em>Geographies of Health (Gatrell &amp; Elliott)</em></td>
-<td>—</td>
-</tr>
-<tr>
-<td>Tourism &amp; Leisure Geography</td>
-<td><em>Tourism Geography (Williams &amp; Lew)</em></td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-<h2 id="power-environment-global-challenges">Power, Environment &amp; Global Challenges</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book</th>
-<th>Online Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Geopolitics</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://academic.oup.com/book/284/chapter/135248822">Geopolitics: A Very Short Introduction (Dodds)</a></strong> (preview on Oxford Academic)</td>
-<td>Political Geography (above)</td>
-</tr>
-<tr>
-<td>Climate Change &amp; Human Adaptation</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.ipcc.ch/report/sixth-assessment-report-working-group-ii/">IPCC AR6 WGII (open-access)</a></strong> (full official open-access report)</td>
-<td>—</td>
-</tr>
-<tr>
-<td>Environmental Justice</td>
-<td><em>Environmental Justice (Walker)</em></td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
-</article>
-</main>
+<h2 id="critical-geopolitics-borders-decolonial-spatialities">Critical Geopolitics, Borders &amp; Decolonial Spatialities</h2>
+<p>This track examines how political power is spatialized, contested, and legitimized through state borders, penal systems, and colonial territorial architectures.</p>
+<p>Critical Geopolitics: <a href="https://books.google.com/books?isbn=9780816626038" target="_blank" rel="noopener noreferrer">Critical Geopolitics: The Politics of Writing Global Space (Gearóid Ó Tuathail)</a> - Foundational text demonstrating how political elites deploy geographic discourse and spatial metaphors to justify state power and military intervention.</p>
+<p>Border Regimes &amp; Securitization: <a href="https://books.google.com/books?isbn=9781784784713" target="_blank" rel="noopener noreferrer">Violent Borders: Refugees and the Right to Move (Reece Jones)</a> - Critical examination of how state borders and militarized barriers regulate human mobility, generate systemic violence, and protect uneven wealth distribution.</p>
+<p>Carceral &amp; Abolition Geographies: <a href="https://books.google.com/books?isbn=9780520242012" target="_blank" rel="noopener noreferrer">Golden Gulag: Prisons, Surplus, Crisis, and Opposition in Globalizing California (Ruth Wilson Gilmore)</a> - Seminal study analyzing mass incarceration through geographic lenses of surplus land, surplus capital, surplus labor, and state capacity.</p>
+<p>Decolonial &amp; Indigenous Spatialities: <a href="https://manifold.umn.edu/projects/a-billion-black-anthropocenes-or-none" target="_blank" rel="noopener noreferrer">A Billion Black Anthropocenes or None (Kathryn Yusoff)</a> - Open-access monograph that interrogates the racialized, colonial origins of geology and cartography while rethinking spatial extractivism.</p>
+<h2 id="political-ecology-environmental-justice-climate-futures">Political Ecology, Environmental Justice &amp; Climate Futures</h2>
+<p>This track explores the political and economic forces that shape environmental degradation, resource conflict, toxic exposure, and climate vulnerability.</p>
+<p>Critical Political Ecology: <a href="https://books.google.com/books?isbn=9781119167440" target="_blank" rel="noopener noreferrer">Political Ecology: A Critical Introduction (Paul Robbins)</a> - The benchmark advanced text exploring nature-society dialectics, conservation politics, environmental degradation, and ecological identity.</p>
+<p>Environmental Justice: <a href="https://www.coursera.org/learn/environmental-justice" target="_blank" rel="noopener noreferrer">Environmental Justice (University of Michigan / Coursera)</a> - Free-to-audit course examining the historical origins, legal frameworks, and grassroots activism addressing environmental racism and toxic exposure.</p>
+<p>Climate Vulnerability &amp; Spatial Adaptation: <a href="https://www.ipcc.ch/report/sixth-assessment-report-working-group-ii/" target="_blank" rel="noopener noreferrer">Climate Change 2022: Impacts, Adaptation and Vulnerability (IPCC Working Group II)</a> - Authoritative open scientific assessment detailing uneven regional vulnerabilities, adaptation limits, and spatial equity considerations across the globe.</p>
+<p>Urban Political Ecology: <a href="https://books.google.com/books?isbn=9780415368285" target="_blank" rel="noopener noreferrer">In the Nature of Cities: Urban Political Ecology and the Politics of Urban Metabolism (Nik Heynen, Maria Kaika, &amp; Erik Swyngedouw, Eds.)</a> - Foundational volume analyzing cities as hybrid socio-natural entities produced by unequal flows of water, energy, waste, and capital.</p>
+<h2 id="global-production-uneven-development-critical-urbanism">Global Production, Uneven Development &amp; Critical Urbanism</h2>
+<p>This track analyzes the spatial organization of the global economy, alternative economic models, logistical systems, and contemporary urban transformations.</p>
+<p>Global Production Networks: <a href="https://books.google.com/books?isbn=9781462519552" target="_blank" rel="noopener noreferrer">Global Shift: Mapping the Changing Contours of the World Economy (Peter Dicken)</a> - Comprehensive masterwork tracking the spatial distribution of transnational corporate networks, international division of labor, and state regulatory roles.</p>
+<p>Post-Development &amp; Community Economies: <a href="https://books.google.com/books?isbn=9780816676071" target="_blank" rel="noopener noreferrer">Take Back the Economy: An Ethical Guide for Transforming Our Communities (J.K. Gibson-Graham, Jenny Cameron, &amp; Stephen Healy)</a> - Actionable framework reframing economic spaces around shared commons, ethical labor, and diverse community-led economies.</p>
+<p>Planetary Urbanization: <a href="https://books.google.com/books?isbn=9780190627201" target="_blank" rel="noopener noreferrer">New Urban Spaces: Urban Theory and the Planetary (Neil Brenner)</a> - Advanced theoretical text rethinking urban studies beyond traditional city boundaries to include logistical networks and operational landscapes.</p>
+<p>Transport &amp; Logistical Systems: <a href="https://transportgeography.org/" target="_blank" rel="noopener noreferrer">The Geography of Transport Systems (Jean-Paul Rodrigue)</a> - Comprehensive open-access textbook covering transportation networks, terminal operations, supply-chain logistics, and spatial accessibility.</p>
+<h2 id="social-geographies-of-difference-embodiment-mobilities">Social Geographies of Difference, Embodiment &amp; Mobilities</h2>
+<p>This track investigates how social categories such as gender, race, ability, and health are mutually constituted by spatial arrangements and mobility systems.</p>
+<p>Feminist Geographies: <a href="https://books.google.com/books?isbn=9780816634040" target="_blank" rel="noopener noreferrer">Gender, Identity and Place: Understanding Feminist Geographies (Linda McDowell)</a> - Definitive survey examining how patriarchal power and gender roles are reproduced and contested across homes, workplaces, and public spaces.</p>
+<p>Urban Inequality &amp; Segregation: <a href="https://www.edx.org/learn/urban-planning/delft-university-of-technology-rethink-the-city-new-approaches-to-global-and-local-urban-challenges" target="_blank" rel="noopener noreferrer">Rethink the City: New Approaches to Global and Local Urban Challenges (Delft University of Technology / edX)</a> - Free-to-audit course exploring spatial justice, residential segregation, and equitable housing solutions with a strong emphasis on the Global South.</p>
+<p>Geographies of Health &amp; Well-being: <a href="https://books.google.com/books?isbn=9780470672877" target="_blank" rel="noopener noreferrer">Geographies of Health: An Introduction (Anthony C. Gatrell &amp; Susan J. Elliott)</a> - Core advanced text examining the spatial distribution of disease, local environmental health risks, therapeutic landscapes, and healthcare access.</p>
+<p>Critical Mobilities: <a href="https://books.google.com/books?isbn=9780415952569" target="_blank" rel="noopener noreferrer">On the Move: Mobility in the Modern Western World (Tim Cresswell)</a> - Conceptual framework exploring how physical movement is imbued with meaning, power, and differential rights in contemporary society.</p>
+<h2 id="geographic-data-science-critical-gis-spatial-humanities">Geographic Data Science, Critical GIS &amp; Spatial Humanities</h2>
+<p>This track bridges computational spatial analysis with critical interrogations of algorithmic power, digital surveillance, and non-Cartesian deep mapping.</p>
+<p>Geographic Data Science: <a href="https://geographicdata.science/book/" target="_blank" rel="noopener noreferrer">Geographic Data Science with Python (Sergio J. Rey, Dani Arribas-Bel, &amp; Levi J. Wolf)</a> - Complete open-access interactive computational textbook covering exploratory spatial data analysis, spatial weights, clustering, and spatial regression.</p>
+<p>Geographic Data Science: <a href="https://darribas.org/gds_course/content/home.html" target="_blank" rel="noopener noreferrer">A Course in Geographic Data Science (Dani Arribas-Bel / University of Liverpool)</a> - Complementary open university course offering lecture slides, practical Jupyter notebooks, and applied datasets using the modern Python geospatial stack.</p>
+<p>Critical GIS: <a href="https://books.google.com/books?isbn=9780816698547" target="_blank" rel="noopener noreferrer">New Lines: Critical GIS and the Edge of the New Map (Matthew W. Wilson)</a> - Critical monograph evaluating the political implications, surveillance capacities, and counter-mapping alternatives of digital geographic software.</p>
+<p>Spatial Humanities: <a href="https://books.google.com/books?isbn=9780253015600" target="_blank" rel="noopener noreferrer">Deep Maps and Spatial Narratives (David J. Bodenhamer, John Corrigan, &amp; Trevor M. Harris, Eds.)</a> - Explores how geographical information systems can integrate qualitative narratives, cultural memory, and historical archives to construct multi-layered representations of place.</p>
+    </article>
+  </main>
 
 </body>
 </html>
